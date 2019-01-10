@@ -1,4 +1,4 @@
-email='steve@teacherspayteachers.com'
+email=$(git log --format="%ae" HEAD^!)
 repo='tpt-frontend'
 branch='my-awesome-branch'
 
