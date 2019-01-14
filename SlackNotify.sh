@@ -12,4 +12,3 @@ fi
 curl -X POST -H 'Content-type: application/json' \
   --data "{\"text\":\"$message\",\"link_names\":true}" \
   "$SLACK_CHANNEL_URL"
-
